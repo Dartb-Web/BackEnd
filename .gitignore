@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Django
+db.sqlite3
+/media/
+staticfiles/
+*.pot
+*.py[cod]
+*.mo
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Environment variables
+.env
+*.env
+
+# VSCode
+.vscode/
+.history/
+
+# macOS
+.DS_Store
+
+# Migrations cache (optional — keeps repo cleaner)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.py
+
+# Local config or secrets
+secrets.json
